@@ -1,26 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>sunil srivatsa</title>
-    <link>https://sunilsrivatsa.com/</link>
-    <description>Recent content on sunil srivatsa</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    
-	<atom:link href="https://sunilsrivatsa.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title></title>
-      <link>https://sunilsrivatsa.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sunilsrivatsa.com/about/</guid>
-      <description>hi, i&amp;rsquo;m sunil! i work as a senior software engineer on the data engineering team in uber&amp;rsquo;s advanced technologies group in san francisco, ca.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sunil srivatsa</title><link>https://sunilsrivatsa.com/</link><description>Recent content on sunil srivatsa</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><atom:link href="https://sunilsrivatsa.com/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://sunilsrivatsa.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sunilsrivatsa.com/about/</guid><description>hi, i&amp;rsquo;m sunil! i work as a senior software engineer on the data engineering team in uber&amp;rsquo;s advanced technologies group in san francisco, ca.
 i ♥ startups and cool technology (most recently cryptocurrencies and vr/ar).
 i double majored in computer science / finance at washington university in st. louis.
-specialties: i can teleport when no one is looking.</description>
-    </item>
-    
-  </channel>
-</rss>
+specialties: i can teleport when no one is looking.</description></item></channel></rss>
