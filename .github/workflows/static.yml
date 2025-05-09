@@ -2,7 +2,7 @@
 name: Deploy static content to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes targeting the default branch (master)
   push:
     branches: ["master"]
 
@@ -22,22 +22,30 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
+  # Single deploy job since we're just deploying pre-built content
   deploy:
     environment:
-      name: github-pages
+      name: github-pages # Standard environment for GitHub Pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        # Checks out the content of the alphastorm.github.io repo,
+        # which is the pre-built site pushed by deploy.sh
+        uses: actions/checkout@v4
+
       - name: Setup Pages
-        uses: actions/configure-pages@v3
+        # Configures GitHub Pages deployment settings
+        uses: actions/configure-pages@v5
+
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        # Uploads the site content as a Pages artifact.
+        # 'path: .\'' is correct here because the entire repository root IS the pre-built site.
+        uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
           path: '.'
+
       - name: Deploy to GitHub Pages
+        # Deploys the uploaded artifact to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
