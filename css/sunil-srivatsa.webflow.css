@@ -785,7 +785,7 @@ ul {
   width: var(--size--100px);
 }
 
-.project-icon.project-icon--startup.project-icon--egirl, .project-icon.project-icon--startup.project-icon--199x, .project-icon.project-icon--startup.project-icon--second-degree {
+.project-icon.project-icon--startup.project-icon--egirl, .project-icon.project-icon--startup.project-icon--199x {
   width: var(--size--100px);
   aspect-ratio: auto;
 }
@@ -1335,7 +1335,7 @@ ul {
     height: var(--size--40px);
   }
 
-  .project-icon.project-icon--startup:where(.w-variant-2d9c7e16-8c8b-b6e0-d0e4-effec15edea5), .project-icon.project-icon--startup.project-icon--egirl, .project-icon.project-icon--startup.project-icon--199x, .project-icon.project-icon--startup.project-icon--second-degree {
+  .project-icon.project-icon--startup:where(.w-variant-2d9c7e16-8c8b-b6e0-d0e4-effec15edea5), .project-icon.project-icon--startup.project-icon--egirl, .project-icon.project-icon--startup.project-icon--199x {
     width: var(--size--64px);
   }
 
