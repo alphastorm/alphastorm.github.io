@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: Inter Variable;
-  src: url('../images/') format("truetype");
+  src: url('../fonts/Inter-VariableFont_opszwght.ttf') format("truetype");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -1440,4 +1440,84 @@ ul {
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
+}
+
+/* Cross-document transition bridge for the static writing section. */
+@view-transition {
+  navigation: auto;
+}
+
+.navbar__brand-icon {
+  view-transition-name: site-glyph;
+}
+
+.navbar__brand-name,
+.navbar__menu-container {
+  view-transition-name: none;
+}
+
+::view-transition-group(site-glyph) {
+  z-index: 5;
+  animation-duration: .62s;
+  animation-timing-function: cubic-bezier(.16, 1, .3, 1);
+}
+
+::view-transition-image-pair(site-glyph) {
+  isolation: auto;
+}
+
+::view-transition-old(site-glyph),
+::view-transition-new(site-glyph) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+::view-transition-new(site-glyph) {
+  z-index: 1;
+}
+
+::view-transition-group(root) {
+  animation-duration: .56s;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: .56s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(root) {
+  animation-name: writing-page-out;
+}
+
+::view-transition-new(root) {
+  animation-name: writing-page-in;
+}
+
+@keyframes writing-page-out {
+  0% {
+    opacity: 1;
+    animation-timing-function: cubic-bezier(.4, 0, 1, 1);
+  }
+  42%,
+  100% { opacity: 0; }
+}
+
+@keyframes writing-page-in {
+  0%,
+  32% {
+    opacity: 0;
+    animation-timing-function: cubic-bezier(0, 0, .2, 1);
+  }
+  100% { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
 }
