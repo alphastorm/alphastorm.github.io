@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/sunilsrivatsa
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://sunilsrivatsa.com
+  * I am sunilsrivatsa (https://keybase.io/sunilsrivatsa) on keybase.
+  * I have a public key with fingerprint 80CB BBA7 0175 53D6 1777  9F96 FED0 32B8 B994 9E4A
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "80cbbba7017553d617779f96fed032b8b9949e4a",
+            "host": "keybase.io",
+            "key_id": "fed032b8b9949e4a",
+            "uid": "b63139df32ed53f8d777ff6f5d211600",
+            "username": "sunilsrivatsa"
+        },
+        "service": {
+            "hostname": "sunilsrivatsa.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1417824362,
+    "expire_in": 157680000,
+    "prev": "d22355c161488bb97796a62a751e950660f3fa81d62a63d8848b4ee8f517aa95",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.1.6
+Comment: https://keybase.io/crypto
+
+yMHmAnicbZFbSBRhFMd3Wy+5GZZlJRnYdCGXzeZ+2TSXKAoiE5IQE5a5fLM7uc6s
+c9kUFaVeFIUlQwiKIAIhtEyKLg/mFtaLiVaCSiikpFJqoSVBhn0j9eb3cvjO+Z3/
+ufVtdjnczqnzH2+WdHSFnP3xFctRfOX0pRpE0KRqxFeDlIM1IytqEOgRXVFNxIew
+qCgIAs+gGENRhERjDMNwMkfLQEIJXGAFjiM5QPKIFwlphp0BZQTeALmKBn3wE1Ak
+6F2Ht9YCAk1gBCfJBA4kipBZCRaQZVqmJBzDaBS1QQPoKl8BIG1YqhI2dCXKmwaP
+1HkRGIoqIrAbt+uvh+WKWgVUieiaqYlaGIZDphkxfHa6WR2x+ctACPxTCgiKKsEV
+wIwo0A1FUxEfBknRVGxpjMQYFicJGvcioCqi6CCg2ATF0CwKn10HRKGkhOMERYkY
+jZEsKwgcXBvN0zjPUBjgKJSmUZmQeRaToI8mJJYlWYEEgJUpjOF5jkLs2SpVDfGR
+sE0+aE+lBFXetHSA1L2KlyU4nG5HUuIG+4gOd8qW/6fN60helS4ObT3of9fU1yp3
+T2sN89OiJ7Eg2P6y4P1k1kJPqH5kPNnfNLVj4VP+jfRD/nDWtXB+US0/8vD6ZHPL
+6tJwb+hI1bd95aMXYvW+ow+st7tIx+3CH9uWzu0uupXdvWm+98BwZadvZ31lWnLP
+nXBi8deNVm/F60zy6ey9UnSw0B9tTHUFnQPb/7iW21fOiqMtH67mZPxuGHxuZc4t
+Djfuf9JWktE0W2t9TnlUeuZY3JVzdyLfk/f42XLh7C+MHj+xuLR3Invm8AsqnupO
+e1OHzqVosbbjJ5NOfRkcuh8b6MpOWG2PxRJ+BifHOstqO5o7Pa3inv50T+73obFT
+M3qj9y//DBmp
+=7+YW
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sunilsrivatsa
+
+==================================================================
